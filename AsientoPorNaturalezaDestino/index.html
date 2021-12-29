@@ -289,6 +289,20 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#configuracion-general-peru" class="md-nav__link">
+    Configuración General Peru
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mapeo-de-cuentas" class="md-nav__link">
+    Mapeo de cuentas
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -342,6 +356,20 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#configuracion-general-peru" class="md-nav__link">
+    Configuración General Peru
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mapeo-de-cuentas" class="md-nav__link">
+    Mapeo de cuentas
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -354,8 +382,6 @@
             <article class="md-content__inner md-typeset">
               
                 
-
-  <h1>Asiento Por Naturaleza y Destino</h1>
 
 <p>Contenido
 BC Asiento por Naturaleza y Destino 3
@@ -377,58 +403,157 @@ Esta configuración se realizará desde la ventana del plan de cuentas estándar
 </li>
 <li>
 <p>Libro de Diario General: Dar de alta en el Libro de Diario General, el diario sobre el cual se registrará el asiento de duplicación.<br />
-Será necesaria la creación de un Diario, que exclusivamente se utilice para esta funcionalidad. Para ello cree el diario en la siguiente ruta: Finanzas → Diario general → +Nuevo</p>
+Será necesaria la creación de un Diario, que exclusivamente se utilice para esta funcionalidad. Para ello cree el diario en la siguiente ruta: Finanzas → Diario general → +Nuevo
+<img alt="Screenshot" src="../img/AND-AltaDiarioGeneral.png" />
+   Este diario deberá tener los siguientes parámetros:</p>
+<ul>
+<li>Nombre: AND</li>
+<li>Descripcion: Asiento por Naturaleza y Destino</li>
+<li>Tipo: General</li>
+<li>Código de Origen: Será necesario crear un código de origen especial, para poder identificarlo</li>
+<li>Serie: será necesario crear un número de serie con un prefijo alfabético para poder identificar dentro del sistema este tipo de asientos. La serie deberá ser continua.
+ <img alt="Screenshot" src="../img/AND-Serie.png" /></li>
+</ul>
+</li>
+<li>
+<p>Configurar la sección referente al diario dado de alta (Secciones del Libro de Contabilidad)- Finanzas → Diario general → Seleccionar el Diario creado → Navegar → Diario General periódico
+ <img alt="Screenshot" src="../img/AND-DiarioGeneralPeriodico.png" /></p>
 </li>
 </ul>
-<p><img alt="Screenshot" src="../img/AND-AltaDiarioGeneral.png" /></p>
-<p>Este diario deberá tener los siguientes parámetros:
-o   Nombre: AND
-o   Descripcion: Asiento por Naturaleza y Destino
-o   Tipo: General
-o   Código de Origen: Será necesario crear un código de origen especial, para poder identificarlo
-o   Serie: será necesario crear un número de serie con un prefijo alfabético para poder identificar dentro del sistema este tipo de asientos. La serie deberá ser continua.</p>
-<p>   Configurar la sección referente al diario dado de alta (Secciones del Libro de Contabilidad)- Finanzas → Diario general → Seleccionar el Diario creado → Navegar → Diario General periódico</p>
-<p>Configuración General Peru:
-Para realizar la correspondiente configuración se deberá ingresar al formulario, debiendo seleccionar desde el panel de navegación del menú  LATAM → CONFIGURACION → CONFIGURACION GENERAL PERU.</p>
+<h1 id="configuracion-general-peru">Configuración General Peru</h1>
+<p>Para realizar la correspondiente configuración se deberá ingresar al formulario, debiendo seleccionar desde el panel de navegación del menú  LATAM → CONFIGURACION → CONFIGURACION GENERAL PERU.
+<img alt="Screenshot" src="../img/AND-ConfiguracionGeneral.png" /></p>
 <p>Los campos contemplados en este formulario son los siguientes: </p>
-<p>   Activar Duplicación asiento GL: Dentro de este menú, agregar campo ‘Activar Duplicación Asiento’, Si o No como opciones. 
-Sí el campo se encuentra con la opción SI, es decir se activa la duplicación, se habilita el próximo campo de este menú, ‘Nombre de diario’.
-   Nombre Diario General: En este campo, se deberán mostrar los Libros de Diario general que tengan configurado el Tipo ‘General’  y que contengan en el campo Source Code, un código de Origen específico.
-   Nombre Lote: este campo se completara automáticamente, una vez seleccionado el Diario general
-   Codigo Origen: este campo se completara automáticamente, una vez seleccionado el Diario general</p>
-<p>Mapeo de cuentas</p>
+<ul>
+<li><strong>Activar Duplicación asiento GL:</strong> Dentro de este menú, agregar campo ‘Activar Duplicación Asiento’, Si o No como opciones. 
+Sí el campo se encuentra con la opción SI, es decir se activa la duplicación, se habilita el próximo campo de este menú, ‘Nombre de diario’.</li>
+<li><strong>Nombre Diario General:</strong> En este campo, se deberán mostrar los Libros de Diario general que tengan configurado el Tipo ‘General’  y que contengan en el campo Source Code, un código de Origen específico.</li>
+<li><strong>Nombre Lote:</strong> este campo se completara automáticamente, una vez seleccionado el Diario general</li>
+<li><strong>Codigo Origen:</strong> este campo se completara automáticamente, una vez seleccionado el Diario general</li>
+</ul>
+<h1 id="mapeo-de-cuentas">Mapeo de cuentas</h1>
 <p>Este formulario permite configurar las cuentas contables de origen, cuentas contables destino y cuenta contable de contrapartida, para los asientos duplicados o adicionales.</p>
 <p>Para realizar la correspondiente configuración se deberá ingresar al formulario, debiendo seleccionar desde el panel de navegación del menú  LATAM → CONFIGURACION → MAPEO DE CUENTAS</p>
-<p>   Codigo origen: Este campo será lista desplegable, con exactamente las mismas opciones que tiene el Libro de Diario General</p>
-<p>Este campo puede quedar vacío. Si está vacío, significa que para la duplicación de asiento se buscará cualquier asiento que tenga la cuenta origen sin importar el tipo de diario o transacción.
+<p><img alt="Screenshot" src="../img/AND-MapeoCuentas.png" />
+  <img alt="Screenshot" src="../img/AND-MapeoCuentas2.png" /></p>
+<ul>
+<li>
+<p><strong>Codigo origen:</strong> Este campo será lista desplegable, con exactamente las mismas opciones que tiene el Libro de Diario General <br />
+Este campo puede quedar vacío. Si está vacío, significa que para la duplicación de asiento se buscará cualquier asiento que tenga la cuenta origen sin importar el tipo de diario o transacción.
 Sí el usuario lo selecciona, significa que deberá buscar en la contabilidad, los asientos que tengan este tipo de diario, y además tengan la cuenta registrada, como cuenta origen en este formulario.
 Este campo, junto con el de cuenta origen y % distribución, son la clave de este formulario; es decir, no puede haber en la grilla un mismo tipo de diario con una misma cuenta origen siempre que ya se tengan el 100% de distribución.</p>
-<p>   Cuenta origen: Campo lista, que muestra el maestro de cuentas contables, para la compañía en la que estamos configurando el formulario. Es decir, solo debe mostrar las cuentas contables de la compañía sobre la que se está configurando. En el campo, al desplegar se debe visualizar el código de cuenta contable y su nombre o descripción. Solo debe mostrar las cuentas cuyo Tipo de Movimiento sea ‘Auxiliar’ (Cuenta no Totalizadora)</p>
-<p>   % Distribución: los campos Tipo de diario más cuenta origen deben sumar el 100% en la configuración. Es decir, se puede tener una misma cuenta origen, que se debe duplicar en más de una cuenta destino con su % de distribución.</p>
-<p>   Cuenta destino: Campo lista, que muestra el maestro de cuentas contables, para la compañía en la que estamos configurando el formulario. Es decir, solo debe mostrar las cuentas contables de la compañía sobre la que se está configurando. En el campo, al desplegar se debe visualizar el código de cuenta contable y su nombre o descripción. Solo debe mostrar las cuentas cuyo Tipo de Movimiento sea ‘Auxiliar’ (Cuenta no Totalizadora)
-Sí se utilizan diferentes % de distribución para la misma cuenta origen, en este campo cuenta destino se debe validar que no se ingrese la misma cuenta destino ya ingresada para la misma cuenta origen.
-NOTA: En caso que, el usuario seleccione una cuenta contable, que tenga configurada en sus dimensiones, un valor o regla de registración, se advertirá que no puede seleccionarse. Solo se podrán seleccionar cuentas contables que no tengan valores de dimensiones obligatorios o registro de validación, ya que las cuentas destino toman los valores de su cuenta origen.</p>
-<p>   Cuenta contrapartida: Campo lista, que muestra el maestro de cuentas contables, para la compañía en la que estamos configurando el formulario. Es decir, solo debe mostrar las cuentas contables de la compañía sobre la que se está configurando. En el campo, al desplegar se debe visualizar el código de cuenta contable y su nombre o descripción. Solo debe mostrar las cuentas cuyo Tipo de Movimiento sea ‘Auxiliar’ (Cuenta no Totalizadora)
-NOTA: En caso de que, el usuario seleccione una cuenta contable, que tenga configurada en sus dimensiones, un valor o regla de registración, se advertirá que no puede seleccionarse. Solo se podrán seleccionar cuentas contables que no tengan valores de dimensiones obligatorios o registro de validación, ya que las cuentas contrapartida toman los valores de su cuenta origen.</p>
+</li>
+<li>
+<p><strong>Cuenta origen:</strong> Campo lista, que muestra el maestro de cuentas contables, para la compañía en la que estamos configurando el formulario. Es decir, solo debe mostrar las cuentas contables de la compañía sobre la que se está configurando. En el campo, al desplegar se debe visualizar el código de cuenta contable y su nombre o descripción. Solo debe mostrar las cuentas cuyo Tipo de Movimiento sea ‘Auxiliar’ (Cuenta no Totalizadora)</p>
+</li>
+<li>
+<p><strong>% Distribución:</strong> los campos Tipo de diario más cuenta origen deben sumar el 100% en la configuración. Es decir, se puede tener una misma cuenta origen, que se debe duplicar en más de una cuenta destino con su % de distribución.</p>
+</li>
+<li>
+<p><strong>Cuenta destino:</strong> Campo lista, que muestra el maestro de cuentas contables, para la compañía en la que estamos configurando el formulario. Es decir, solo debe mostrar las cuentas contables de la compañía sobre la que se está configurando. En el campo, al desplegar se debe visualizar el código de cuenta contable y su nombre o descripción. Solo debe mostrar las cuentas cuyo Tipo de Movimiento sea ‘Auxiliar’ (Cuenta no Totalizadora)
+Sí se utilizan diferentes % de distribución para la misma cuenta origen, en este campo cuenta destino se debe validar que no se ingrese la misma cuenta destino ya ingresada para la misma cuenta origen.  </p>
+</li>
+</ul>
+<p>NOTA: En caso que, el usuario seleccione una cuenta contable, que tenga configurada en sus dimensiones, un valor o regla de registración, se advertirá que no puede seleccionarse. Solo se podrán seleccionar cuentas contables que no tengan valores de dimensiones obligatorios o registro de validación, ya que las cuentas destino toman los valores de su cuenta origen.</p>
+<ul>
+<li><strong>Cuenta contrapartida:</strong> Campo lista, que muestra el maestro de cuentas contables, para la compañía en la que estamos configurando el formulario. Es decir, solo debe mostrar las cuentas contables de la compañía sobre la que se está configurando. En el campo, al desplegar se debe visualizar el código de cuenta contable y su nombre o descripción. Solo debe mostrar las cuentas cuyo Tipo de Movimiento sea ‘Auxiliar’ (Cuenta no Totalizadora).  </li>
+</ul>
+<p>NOTA: En caso de que, el usuario seleccione una cuenta contable, que tenga configurada en sus dimensiones, un valor o regla de registración, se advertirá que no puede seleccionarse. Solo se podrán seleccionar cuentas contables que no tengan valores de dimensiones obligatorios o registro de validación, ya que las cuentas contrapartida toman los valores de su cuenta origen.</p>
 <p>Cada vez que se registre en contabilidad un tipo de registro con su cuenta origen configurada y el campo Codigo de Origen, deberá generar un nuevo asiento contable, de acuerdo con el nombre de diario configurado en parámetros de Asiento por naturaleza y Destino, pero con la cuenta destino o cuentas destino en caso de % distribución diferente, y sus respectivas cuentas de contrapartida.</p>
 <p>La cuenta destino y la cuenta contrapartida, deberá tomar las dimensiones que se hayan registrado en su cuenta origen.  Por lo tanto, las cuentas destino y contrapartida de Asiento por naturaleza y destino tienen que estar configuradas sin código valor dimensión y sin registro valor. </p>
 <p>Ejemplo 1: 
-Tenemos configurado en el formulario Mapeo de cuentas lo siguiente:
-Tipo de diario  Cuenta origen   % distribución  Cuenta destino  Cuenta contrapartida
-    679311  50  921010  791111
-    679311  50  951010  791111
-    681111  100 921010  781111
-Purchases   659311  100 941010  791111</p>
+Tenemos configurado en el formulario Mapeo de cuentas lo siguiente:  </p>
+<table>
+<thead>
+<tr>
+<th>Tipo de diario</th>
+<th>Cuenta origen</th>
+<th>% distribución</th>
+<th>Cuenta destino</th>
+<th>Cuenta contrapartida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>679311</td>
+<td>50</td>
+<td>921010</td>
+<td>791111</td>
+</tr>
+<tr>
+<td></td>
+<td>679311</td>
+<td>50</td>
+<td>951010</td>
+<td>791111</td>
+</tr>
+<tr>
+<td></td>
+<td>681111</td>
+<td>100</td>
+<td>921010</td>
+<td>781111</td>
+</tr>
+<tr>
+<td>Purchases</td>
+<td>659311</td>
+<td>100</td>
+<td>941010</td>
+<td>791111</td>
+</tr>
+</tbody>
+</table>
 <p>Se registra una Factura de proveedor el siguiente asiento contable:</p>
-<p>-----------------------------------     -------------------------------------------
-659311 COMISIONES AGENTES       1,000 
-421201 FACTURAS POR PAGAR                   1,000
-----------------------------------      -------------------------------------------</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>659311</td>
+<td>COMISIONES AGENTES</td>
+<td>1,000</td>
+<td></td>
+</tr>
+<tr>
+<td>421201</td>
+<td>FACTURAS POR PAGAR</td>
+<td></td>
+<td>1,000</td>
+</tr>
+</tbody>
+</table>
 <p>Una vez que esto se registró, inmediatamente LATAM debe registrar el siguiente asiento:</p>
-<p>-----------------------------------Nombre de diario parámetros LATAM    -------------------------
-941010 GASTOS           1,000.
-791111 CARGAS IMPUTABLES                         1,000.
------------------------------------     ---------------------------------------------------------</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>941010</td>
+<td>GASTOS</td>
+<td>1,000.</td>
+<td></td>
+</tr>
+<tr>
+<td>791111</td>
+<td>CARGAS IMPUTABLES</td>
+<td></td>
+<td>1,000.</td>
+</tr>
+</tbody>
+</table>
 <p>Ejemplo 2: 
 Tenemos configurado en el formulario Mapeo de cuentas lo siguiente:</p>
 <p>Tipo de diario  Cuenta origen   % distribución  Cuenta destino  Cuenta contrapartida
