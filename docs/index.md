@@ -12,7 +12,7 @@ El módulo **Peruvian Localization**, integrado completamente con Microsoft Dyna
 
 The Localization has been developed to allow the detail configuration of each business process in order to minimize the re-work and users mistakes.
 
-##How was the Localization for Perú and the rest of Latin America developed?
+##Cómo fueron desarrolladas la localización peruana y el resto?
 
 * Allowing the activation of each functionality by company, In order to grant, again the coexistence of different countries in a single instance of D365 BC.
 * Regional design based on experience of previous AW location team on a different platform that covers:

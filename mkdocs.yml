@@ -1,4 +1,13 @@
 site_name: Artware LATAM Localization Help
 nav:
     - Home: index.md
-    - Maestros: ConfiguracionGeneralLATAM.md
+    - Maestros: 
+        - 'Configuración General': 'ConfiguracionGeneralLATAM.md'
+        - Clientes: 'Clientes.md'
+        - Asiento Por Naturaleza y Destino: 'AsientoPorNaturalezaDestino.md'
+theme:
+    name: 'material'
+    navigation_depth: '3'
+    logo: img/logo.png
+
+    
