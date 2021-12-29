@@ -1,0 +1,4 @@
+site_name: Artware LATAM Localization Help
+nav:
+    - Home: index.md
+    - Maestros: ConfiguracionGeneralLATAM.md
