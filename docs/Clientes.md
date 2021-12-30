@@ -9,7 +9,7 @@ Para realizar la correspondiente configuración se deberá ingresar al Maestro d
 
 ## LATAM 
   
-![Screenshot](img/Cliente_Latam.png)
+![Screenshot](img/Clientes/Cliente_Latam.png)
  
 Los campos para completar son los siguientes:
 * **Tipo de contribuyente:** en este campo desplegable se podrá seleccionar del maestro Tipo de contribuyente, el que corresponda a la condición del cliente. Por ejemplo, sí se trata en una compañía radicada en Argentina como tipo de contribuyente se podrán seleccionar responsable Inscripto, Monotributista, Exento, etc.   

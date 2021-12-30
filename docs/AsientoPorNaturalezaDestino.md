@@ -17,28 +17,28 @@ Para poder generar los asientos, antes se deberá tener configurado los siguient
 * Cuentas contables: Se deberá tener configuradas las cuentas contables del Plan de cuentas, como también las cuentas contables en las que se duplicaran los asientos.
 Esta configuración se realizará desde la ventana del plan de cuentas estándar de BC.
 (Finanzas → Plan de Cuentas)  
-![Screenshot](img/AND-Cuentas.png)
+![Screenshot](img/AsientoNaturalezaDestino/AND-Cuentas.png)
  
 
 * Libro de Diario General: Dar de alta en el Libro de Diario General, el diario sobre el cual se registrará el asiento de duplicación.  
 Será necesaria la creación de un Diario, que exclusivamente se utilice para esta funcionalidad. Para ello cree el diario en la siguiente ruta: Finanzas → Diario general → +Nuevo
-![Screenshot](img/AND-AltaDiarioGeneral.png)
+![Screenshot](img/AsientoNaturalezaDestino/AND-AltaDiarioGeneral.png)
    Este diario deberá tener los siguientes parámetros:
     * Nombre: AND
     * Descripcion: Asiento por Naturaleza y Destino
     * Tipo: General
     * Código de Origen: Será necesario crear un código de origen especial, para poder identificarlo
     * Serie: será necesario crear un número de serie con un prefijo alfabético para poder identificar dentro del sistema este tipo de asientos. La serie deberá ser continua.
- ![Screenshot](img/AND-Serie.png)
+ ![Screenshot](img/AsientoNaturalezaDestino/AND-Serie.png)
 
 * Configurar la sección referente al diario dado de alta (Secciones del Libro de Contabilidad)- Finanzas → Diario general → Seleccionar el Diario creado → Navegar → Diario General periódico
- ![Screenshot](img/AND-DiarioGeneralPeriodico.png)
+ ![Screenshot](img/AsientoNaturalezaDestino/AND-DiarioGeneralPeriodico.png)
 
 
 #Configuración General Peru
 
 Para realizar la correspondiente configuración se deberá ingresar al formulario, debiendo seleccionar desde el panel de navegación del menú  LATAM → CONFIGURACION → CONFIGURACION GENERAL PERU.
-![Screenshot](img/AND-ConfiguracionGeneral.png)
+![Screenshot](img/AsientoNaturalezaDestino/AND-ConfiguracionGeneral.png)
  
 
 Los campos contemplados en este formulario son los siguientes: 
@@ -58,8 +58,8 @@ Este formulario permite configurar las cuentas contables de origen, cuentas cont
 
 Para realizar la correspondiente configuración se deberá ingresar al formulario, debiendo seleccionar desde el panel de navegación del menú  LATAM → CONFIGURACION → MAPEO DE CUENTAS
 
- ![Screenshot](img/AND-MapeoCuentas.png)
-  ![Screenshot](img/AND-MapeoCuentas2.png)
+ ![Screenshot](img/AsientoNaturalezaDestino/AND-MapeoCuentas.png)
+  ![Screenshot](img/AsientoNaturalezaDestino/AND-MapeoCuentas2.png)
  
  
 * **Codigo origen:** Este campo será lista desplegable, con exactamente las mismas opciones que tiene el Libro de Diario General   
@@ -105,6 +105,8 @@ Se registra una Factura de proveedor el siguiente asiento contable:
 
 Una vez que esto se registró, inmediatamente LATAM debe registrar el siguiente asiento:
 
+**Nombre de diario parámetros LATAM	**
+
 |||||
 |----|----|----|----|
 |941010 |GASTOS |1,000.||
@@ -115,41 +117,47 @@ Una vez que esto se registró, inmediatamente LATAM debe registrar el siguiente 
 Ejemplo 2: 
 Tenemos configurado en el formulario Mapeo de cuentas lo siguiente:
 
-
-Tipo de diario	Cuenta origen	% distribución	Cuenta destino	Cuenta contrapartida
- 	679311	50	921010	791111
- 	679311	50	951010	791111
- 	681111	100	921010	781111
-Purchases	659311	100	941010	791111
+|Tipo de diario|Cuenta origen|% distribución|Cuenta destino|Cuenta contrapartida|
+|---------------|---------------|---------------|---------------|--------------------|
+| 	|679311	|50	|921010	|791111|
+| 	|679311	|50	|951010	|791111|
+| 	|681111	|100	|921010	|781111|
+|Purchases	|659311	|100	|941010	|791111|
 
 Se registra por un Factura de Compra el siguiente asiento contable:
 
------------------------------------		-------------------------------------------
-639311 CARGAS FINANCIERAS 		1,000 
-421201 FACTURAS POR PAGAR                 	1,000
-----------------------------------		-------------------------------------------
+| | | ||
+|------|-------------------|----------|-------------------------------------------|
+|639311|CARGAS FINANCIERAS|1,000 ||
+|421201|FACTURAS POR PAGAR|        	|1,000|
 
 Una vez que esto se registró, inmediatamente LATAM debe registrar el siguiente asiento:
 
------------------------------------Nombre de diario parámetros LATAM	-------------------------921010 COSTOS DEL SERVICIO 			500.
-951010 GASTOS DE VENTAS			500
-791111 CARGAS IMPUTABLES                         1,000.
------------------------------------		---------------------------------------------------------
+**Nombre de diario parámetros LATAM	**
+
+| | | ||
+|------|-------------------|----------|-------------------------------------------|
+|921010 |COSTOS DEL SERVICIO| 			500.||
+|951010 |GASTOS DE VENTAS|			500||
+|791111 |CARGAS IMPUTABLES|             |            1,000|
 
 El proceso deberá dejar plasmado en el asiento que originó una referencia de cuál fue su asiento de origen. 
 
 Finanzas → Plan de cuentas → Proceso → Registro Movs contabilidad → Contabilidad
 
+![Screenshot](img/AsientoNaturalezaDestino/AND-RegistroMovsContabilidad.png)
+
  
 
 Como se ha mencionado, el proceso debe abarcar cualquier asiento contable que el sistema genere, a saber:
-•	Transacciones de Compras (incluye recepciones y cargas de documentos de proveedor como Facturas y Notas de Crédito/Devoluciones)
-•	Transacciones de Ventas (incluye envíos y cargas de documentos de proveedor como Facturas y Notas de Crédito/Devoluciones)
-•	Asientos producidos por los cargos adicionales en compras y ventas (item Charges)
-•	Transacciones de Tesorería (Ejemplo: Pagos, cobros, depósitos)
-•	Transacciones de Contabilidad (asientos contables)
-•	Cierre de Ejercicio
-•	Asientos automáticos de Diferencias de Cambio
-•	Asientos Automáticos por ajuste de Costos de ítems
-•	Transacciones de Inventario (diarios de conteo, ajustes positivos y negativos, ordenes de transferencias, transferencias)
+
+* Transacciones de Compras (incluye recepciones y cargas de documentos de proveedor como Facturas y Notas de Crédito/Devoluciones)
+* Transacciones de Ventas (incluye envíos y cargas de documentos de proveedor como Facturas y Notas de Crédito/Devoluciones)
+* Asientos producidos por los cargos adicionales en compras y ventas (item Charges)
+* Transacciones de Tesorería (Ejemplo: Pagos, cobros, depósitos)
+* Transacciones de Contabilidad (asientos contables)
+* Cierre de Ejercicio
+* Asientos automáticos de Diferencias de Cambio
+* Asientos Automáticos por ajuste de Costos de ítems
+* Transacciones de Inventario (diarios de conteo, ajustes positivos y negativos, ordenes de transferencias, transferencias)
 

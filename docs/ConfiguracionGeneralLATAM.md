@@ -8,13 +8,13 @@ Este formulario permite incorporar las parametrizaciones generales que deberá h
 Para realizar la correspondiente configuración se deberá ingresar al formulario, debiendo seleccionar desde el panel de navegación del menú  LATAM → CONFIGURACION → CONFIGURACION GENERAL.
 ###Habilitar localización LATAM Core
 
-![Screenshot](img/ConfiguracionGeneral_Habilitarlocalizacion.png)
+![Screenshot](img/ConfiguracionGeneral/ConfiguracionGeneral_Habilitarlocalizacion.png)
 
 * Habilitar LATAM: este campo de verificación permitirá activar la localización.
 
 ###Prefijo
 
-![Screenshot](img/ConfiguracionGeneral_Prefijo.png)
+![Screenshot](img/ConfiguracionGeneral/ConfiguracionGeneral_Prefijo.png)
 
 Los campos a completar son:
 
@@ -24,7 +24,7 @@ Los campos a completar son:
 
 ###Definidos por el usuario contabilidad
 
-![Screenshot](img/ConfiguracionGeneral_DefinidosUsuarioContabilidad.png)
+![Screenshot](img/ConfiguracionGeneral/ConfiguracionGeneral_DefinidosUsuarioContabilidad.png)
 
 
 En esta sección se configurarán las etiquetas para definir los conceptos y notas que se utilizarán en los maestros de entidades. En el maestro, estos campos deberán visualizarse con la etiqueta configurada y a su vez, deberán permitir el ingreso de un cierto valor que agregara información adicional para la entidad. 
@@ -44,7 +44,7 @@ En líneas de Tipo Contabilidad (DEBITO o CREDITO): deberá habilitar los compro
 
 ###Definidos por el usuario proveedor
 
-![Screenshot](img/ConfiguracionGeneral_DefinidosUsuarioProveedor.png)
+![Screenshot](img/ConfiguracionGeneral/ConfiguracionGeneral_DefinidosUsuarioProveedor.png)
  
 
 En este sección se configurarán las etiquetas para definir los conceptos y notas que se utilizarán en los maestros de entidades. En el maestro, estos campos deberán visualizarse con la etiqueta configurada y a su vez, deberán permitir el ingreso de un cierto valor que agregara información adicional para la entidad. 
@@ -63,7 +63,7 @@ En caso de que el usuario cambie de débito a crédito o viceversa, si el compro
 
 ###Definidos por el usuario proyecto
 
-![Screenshot](img/ConfiguracionGeneral_DefinidosUsuarioProyecto.png)
+![Screenshot](img/ConfiguracionGeneral/ConfiguracionGeneral_DefinidosUsuarioProyecto.png)
 
 En esta sección se configurarán las etiquetas para definir los conceptos y notas que se utilizarán en los maestros de entidades. En el maestro, estos campos deberán visualizarse con la etiqueta configurada y a su vez, deberán permitir el ingreso de un cierto valor que agregara información adicional para la entidad. 
 
@@ -80,7 +80,7 @@ En caso de que el usuario cambie de débito a crédito o viceversa, si el compro
 
 ###Definidos por el usuario cliente
 
-![Screenshot](img/ConfiguracionGeneral_DefinidosUsuarioCliente.png)
+![Screenshot](img/ConfiguracionGeneral/ConfiguracionGeneral_DefinidosUsuarioCliente.png)
 
 En esta sección se configurarán las etiquetas para definir los conceptos y notas que se utilizarán en los maestros de entidades. En el maestro, estos campos deberán visualizarse con la etiqueta configurada y a su vez, deberán permitir el ingreso de un cierto valor que agregara información adicional para la entidad. 
 
@@ -98,7 +98,7 @@ En caso de que el usuario cambie de débito a crédito o viceversa, si el compro
 
 ###Definidos por el usuario activo fijo
 
- ![Screenshot](img/ConfiguracionGeneral_DefinidosUsuarioActivoFijo.png)
+ ![Screenshot](img/ConfiguracionGeneral/ConfiguracionGeneral_DefinidosUsuarioActivoFijo.png)
 
 En esta sección se configurarán las etiquetas para definir los conceptos y notas que se utilizarán en los maestros de entidades. En el maestro, estos campos deberán visualizarse con la etiqueta configurada y a su vez, deberán permitir el ingreso de un cierto valor que agregara información adicional para la entidad. 
 
@@ -111,7 +111,7 @@ Los campos contemplados en este formulario son los siguientes:
 
 ###Definidos por el usuario banco
 
- ![Screenshot](img/ConfiguracionGeneral_DefinidosUsuarioBanco.png)
+ ![Screenshot](img/ConfiguracionGeneral/ConfiguracionGeneral_DefinidosUsuarioBanco.png)
 
 En esta sección se configurarán las etiquetas para definir los conceptos y notas que se utilizarán en los maestros de entidades. En el maestro, estos campos deberán visualizarse con la etiqueta configurada y a su vez, deberán permitir el ingreso de un cierto valor que agregara información adicional para la entidad. 
 
@@ -129,7 +129,7 @@ En caso de que el usuario cambie de débito a crédito o viceversa, si el compro
 
 ###Definidos por el usuario compañía
 
-![Screenshot](img/ConfiguracionGeneral_DefinidosUsuarioCompania.png)
+![Screenshot](img/ConfiguracionGeneral/ConfiguracionGeneral_DefinidosUsuarioCompania.png)
  
 
 En esta sección se configurarán las etiquetas para definir los conceptos y notas que se utilizarán en los maestros de entidades. En el maestro, estos campos deberán visualizarse con la etiqueta configurada y a su vez, deberán permitir el ingreso de un cierto valor que agregara información adicional para la entidad. 
@@ -143,7 +143,7 @@ Los campos contemplados en este formulario son los siguientes:
 
 ###Definidos por el usuario contacto
 
- ![Screenshot](img/ConfiguracionGeneral_DefinidosUsuarioContacto.png)
+ ![Screenshot](img/ConfiguracionGeneral/ConfiguracionGeneral_DefinidosUsuarioContacto.png)
 
 En esta sección se configurarán las etiquetas para definir los conceptos y notas que se utilizarán en los maestros de entidades. En el maestro, estos campos deberán visualizarse con la etiqueta configurada y a su vez, deberán permitir el ingreso de un cierto valor que agregara información adicional para la entidad. 
 
@@ -156,7 +156,7 @@ Los campos contemplados en este formulario son los siguientes:
 
 ###Definidos por el usuario empleado
 
- ![Screenshot](img/ConfiguracionGeneral_DefinidosUsuarioEmpleado.png)
+ ![Screenshot](img/ConfiguracionGeneral/ConfiguracionGeneral_DefinidosUsuarioEmpleado.png)
 
 En esta sección se configurarán las etiquetas para definir los conceptos y notas que se utilizarán en los maestros de entidades. En el maestro, estos campos deberán visualizarse con la etiqueta configurada y a su vez, deberán permitir el ingreso de un cierto valor que agregara información adicional para la entidad. 
 
@@ -169,7 +169,7 @@ Los campos contemplados en este formulario son los siguientes:
 
 ###Sección Valores
 
-![Screenshot](img/ConfiguracionGeneral_Valores.png)
+![Screenshot](img/ConfiguracionGeneral/ConfiguracionGeneral_Valores.png)
 
  
 
@@ -193,7 +193,7 @@ Los campos contemplados en este formulario son los siguientes:
 
 ###Medio de cobro/pago
 
- ![Screenshot](img/ConfiguracionGeneral_MedioCobroPago.png)
+ ![Screenshot](img/ConfiguracionGeneral/ConfiguracionGeneral_MedioCobroPago.png)
 
 * Secuencia medio cobro pago: en este campo desplegable se permitirá seleccionar los 
 la secuencia numérica que los medios de cobro/pago deberán seguir. La secuencia numérica será creada en la tabla nativa de Nos. Serie (Configuración → Información de Empresa → Configuración de la Aplicación → Nos. Serie)
@@ -201,7 +201,7 @@ la secuencia numérica que los medios de cobro/pago deberán seguir. La secuenci
 
 ###Conceptos
  
-![Screenshot](img/ConfiguracionGeneral_Conceptos.png)
+![Screenshot](img/ConfiguracionGeneral/ConfiguracionGeneral_Conceptos.png)
 
 * Hereda Punto de venta: este campo de verificación permite habilitar que se sobreescriba la Dimensión seleccionada en el siguiente campo con el Punto de venta del comprobante principal del asiento (línea de tipo cliente o proveedor).
 
@@ -210,7 +210,7 @@ Nota: se debe configurar una dimensión que posea exactamente los mismos valores
 
 ###Asignaciones de dimensión
 
- ![Screenshot](img/ConfiguracionGeneral_AsignacionesDimension.png)
+ ![Screenshot](img/ConfiguracionGeneral/ConfiguracionGeneral_AsignacionesDimension.png)
 
 En ciertos países de Latinoamérica como Colombia, toda la información tributaria se obtiene de la contabilidad de la compañía, de manera que para cada transacción debe quedar guardada la relación con un sujeto o tercero (clientes, proveedores, bancos), identificándolo como una dimensión adicional en la combinación de cuenta y dimensiones.
 
