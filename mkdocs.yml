@@ -15,12 +15,21 @@ nav:
         - Aplicativo Ganancias Sociedades : 'AplicativoGananciasSociedades.md'
         - Aplicativo SICORE : 'AplicativoSICORE.md'
         - Aplicativo SIFERE : 'AplicativoSIFERE.md'
+        - IVA SIAP: 'aplicativos/IVASIAP.md'
     - Localización Perú:
         - Asiento Por Naturaleza y Destino: 'AsientoPorNaturalezaDestino.md'
+        - diagrams: 'diagrams.md'
         
 theme:
     name: 'material'
     navigation_depth: '3'
     logo: img/logo.png
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
     

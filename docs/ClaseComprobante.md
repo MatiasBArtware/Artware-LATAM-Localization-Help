@@ -1,3 +1,4 @@
+
 ## Objetivo
 
 Este formulario permitirá dar de alta los diferentes comprobantes con los que
@@ -15,6 +16,7 @@ ubicado en **LATAM → COMPROBANTE → CLASE DE COMPROBANTE.**
 
 ![Interfaz de usuario gráfica, Aplicación Descripción generada
 automáticamente](img/ClaseComprobante/4b865bda7bbe66e3b3c24f04c75ffd6f.png)
+
 
 Los campos para completar son:
 
@@ -281,7 +283,7 @@ configurar:
 *NOTA:* En los Diarios, este Tipo de Valor generará una línea con el Tipo de
 Cuenta: Cliente.
 
--   **Banco***:* esta opción será utilizada en medios como Débitos Bancarios,
+-   *Banco:* esta opción será utilizada en medios como Débitos Bancarios,
     Acreditaciones Bancarias, Transferencias Bancarias, y todo medio que afecte
     directamente a un Banco.
 
@@ -324,12 +326,12 @@ configurar:
 Al momento de cargar una transacción, dicha configuración ofrecerá, de manera
 predeterminada, la cuenta bancaria seleccionada en la grilla. En caso de haber
 más de una cuenta bancaria cargada en la grilla, se deberá seleccionar cuál se
-desea utilizar en la transacción**.**
+desea utilizar en la transacción.
 
 *NOTA: En los Diarios, este Tipo de Valor generará una línea con el Tipo de
 Cuenta: Banco.*
 
--   **Retenciones realizadas***:* esta opción se utilizará para el ingreso de
+-   *Retenciones realizadas:* esta opción se utilizará para el ingreso de
     Retenciones que efectúa la compañía a sus proveedores en el pago.
 
 ![Interfaz de usuario gráfica, Texto, Aplicación, Correo electrónico Descripción
@@ -370,7 +372,7 @@ en la transacción.
 *NOTA: En los Diarios, este Tipo de Valor generará una línea con el Tipo de
 Cuenta: Banco.*
 
--   **Valores propios***:* este tipo de medio se utilizará para representar los
+-   *Valores propios:* este tipo de medio se utilizará para representar los
     Cheques Propios al Día y cualquier otro documento emitido por la empresa,
     que no posea una fecha de Vencimiento.
 
@@ -423,7 +425,7 @@ configurar:
 *NOTA: En los Diarios, este Tipo de Valor generará una línea con el Tipo de
 Cuenta: Banco.*
 
--   **Cartera propia***:* este tipo de medio se utilizará para representar los
+-   *Cartera propia:* este tipo de medio se utilizará para representar los
     cheques Propios Diferidos o cualquier otro documento que posea fecha de
     Vencimiento*.*
 
@@ -490,7 +492,7 @@ Cuenta: Proveedor, cuya contrapartida será Proveedor si la acción es Emisión.
 *Si la acción es Devengamiento, se generará una línea con el Tipo de Cuenta:
 Proveedor, cuya contrapartida será Banco.*
 
--   **Retenciones sufridas***:* esta opción se utilizará para el ingreso de
+-   *Retenciones sufridas:* esta opción se utilizará para el ingreso de
     Retenciones que realicen los clientes a la compañía.
 
 ![Interfaz de usuario gráfica, Texto, Aplicación, Correo electrónico Descripción
@@ -711,7 +713,7 @@ Los campos que podrán configurarse son los siguientes:
     tipo de documento del cliente y el número de documento Estado, del cliente,
     proveedor, etc. Por ejemplo: IIBB BS AS y su número correspondiente.
 
--   *Comportamiento de campos concepto*
+###Comportamiento de campos concepto
 
 -   *Concepto 1:* esta opción se encontrará disponible para todos los
     comprobantes. Se podrá utilizar para completar con información adicional.
