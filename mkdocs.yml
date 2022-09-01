@@ -1,24 +1,27 @@
-site_name: Artware LATAM Localization Help
+site_name: Artware Help Docs
 nav:
     - Home: index.md
-    - Core:
-        - Maestros: 
-            - Configuración General: 'ConfiguracionGeneralLATAM.md'
-            - Clientes: 'Clientes.md'
-            - Tipo Contribuyente: 'TipoContribuyente.md'
-            - Tipo Clase Comprobante: 'TipoClaseComprobante.md'
-            - Proveedores: 'Proveedores.md'
-            - Letra Clase Comprobante: 'LetraClaseComprobante.md'
-            - Grupo Tipo Cuenta: 'GrupoTipoCuenta.md'
-            - Clase Comprobante: 'ClaseComprobante.md'
-    - Localización Argentina:
-        - Aplicativo Ganancias Sociedades : 'AplicativoGananciasSociedades.md'
-        - Aplicativo SICORE : 'AplicativoSICORE.md'
-        - Aplicativo SIFERE : 'AplicativoSIFERE.md'
-        - IVA SIAP: 'aplicativos/IVASIAP.md'
-    - Localización Perú:
-        - Asiento Por Naturaleza y Destino: 'AsientoPorNaturalezaDestino.md'
-        - diagrams: 'diagrams.md'
+    - Localis365:
+        - Core:
+            - Maestros: 
+                - Configuración General: 'ConfiguracionGeneralLATAM.md'
+                - Clientes: 'Clientes.md'
+                - Tipo Contribuyente: 'TipoContribuyente.md'
+                - Tipo Clase Comprobante: 'TipoClaseComprobante.md'
+                - Proveedores: 'Proveedores.md'
+                - Letra Clase Comprobante: 'LetraClaseComprobante.md'
+                - Grupo Tipo Cuenta: 'GrupoTipoCuenta.md'
+                - Clase Comprobante: 'ClaseComprobante.md'
+        - Localización Argentina:
+            - Aplicativo Ganancias Sociedades : 'AplicativoGananciasSociedades.md'
+            - Aplicativo SICORE : 'AplicativoSICORE.md'
+            - Aplicativo SIFERE : 'AplicativoSIFERE.md'
+            - IVA SIAP: 'aplica tivos/IVASIAP.md'
+        - Localización Perú:
+            - Asiento Por Naturaleza y Destino: 'AsientoPorNaturalezaDestino.md'
+            - diagrams: 'diagrams.md'
+    - Ajuste por inflación:
+        - test: 'test.md'
         
 theme:
     name: 'material'
