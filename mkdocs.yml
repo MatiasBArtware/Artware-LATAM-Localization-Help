@@ -22,7 +22,8 @@ nav:
             - diagrams: 'diagrams.md'
     - Ajuste por inflación:
         - Configuración General: 'AjustePorInflacion/ConfiguracionGeneral.md'
-        
+        - Indices de Ajuste por Inflación: 'AjustePorInflacion/IndicesDeAjustePorInflacion.md'
+        - Proceso de Ajuste: 'AjustePorInflacion/ProcesoDeAjuste.md'
 theme:
     name: 'material'
     navigation_depth: '3'
