@@ -21,7 +21,7 @@ nav:
             - Asiento Por Naturaleza y Destino: 'AsientoPorNaturalezaDestino.md'
             - diagrams: 'diagrams.md'
     - Ajuste por inflación:
-        - test: 'test.md'
+        - Configuración General: 'AjustePorInflacion/ConfiguracionGeneral.md'
         
 theme:
     name: 'material'
