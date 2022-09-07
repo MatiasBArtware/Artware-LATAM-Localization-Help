@@ -1,5 +1,5 @@
 
-#Indices de Ajuste por Inflación
+#**Indices de Ajuste por Inflación**
 
 
 En esta sección tendremos disponibles la tabla de indices de Ajuste por Inflación mensuales. Esta tabla depende de una consulta a un servicio web perteneciente al INDEC,
@@ -67,7 +67,7 @@ Se corre el proceso con el siguiente periodo de fechas:
 
 *En la parte superior tendremos disponible la opción de Actualizar Indices de Inflación, esto nos permitirá obtener los últimos indices publicados a la fecha.*
 
-![Screenshot](img/Indices/indices.jpg)
+![Screenshot](img/Proceso/indices.jpg)
 
 
 

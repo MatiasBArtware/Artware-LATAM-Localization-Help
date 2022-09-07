@@ -1,4 +1,4 @@
-#Descripción del proceso secuencial de ajuste contable por inflación
+#**Descripción del proceso secuencial de ajuste contable por inflación**
 
 Este proceso en el ERP permitirá ajustar los saldos de cuentas contables a una determinada fecha, a partir de cálculo de coeficientes por mes. 
 Para ello en el proceso de ajuste por inflación se deben tener en cuenta las siguientes etapas:
