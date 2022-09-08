@@ -5,7 +5,7 @@ un presupuesto y además la creación de asientos en el diario configurado tambi
 
 A continuación detallaremos cada proceso:
 
-##Presupuesto Contable
+##**Presupuesto Contable**
 
 El módulo de presupuesto será el primer impacto que tendrá este proceso de ajuste. 
 Luego de la selección de fechas dentro de la ventana de configuración para el proceso, se generará un presupuesto contable que tendrá como finalidad ser una

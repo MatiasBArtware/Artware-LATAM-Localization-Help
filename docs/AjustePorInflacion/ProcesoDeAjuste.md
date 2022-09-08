@@ -35,6 +35,14 @@ sobre el que operaremos para este proceso.
 ![Screenshot](img/Proceso/disparador2.jpg)
 ![Screenshot](img/Proceso/ventanaajuste.jpg)
 ![Screenshot](img/Proceso/ventanaajuste2.jpg)
+
+Tengamos en cuenta que para realizar el ajuste, debemos tomar un periodo de fechas particular.
+Por ejemplo, si deseamos ajustar saldos del mes de marzo, debemos correr el proceso para marzo y abril, ya que el proceso solo ajustará los montos correspondientes a
+marzo y el no habra ningun ajuste para abril.
+Si corremos el proceso desde el 1 de un mes, hasta su último día de ese mes, no habrá ajuste debido a que el coeficiente que se le aplicará al saldo a ajustar, resultante
+del calculo de indices (documentacion de Indices), será 1, por lo que no habrá ajuste.
+
+En resumen, para el proceso necesitamos por ejemplo, tomar el mes de nuestro interes y el mes posterior.
 <hr>
 **7.** Generación de presupuesto y opcionalmente asientos contables, según se haya configurado.
 

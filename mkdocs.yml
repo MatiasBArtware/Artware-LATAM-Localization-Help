@@ -25,6 +25,7 @@ nav:
         - Indices de Ajuste por Inflación: 'AjustePorInflacion/IndicesDeAjustePorInflacion.md'
         - Proceso de Ajuste: 'AjustePorInflacion/ProcesoDeAjuste.md'
         - Presupuesto contable: 'AjustePorInflacion/Presupuesto.md'
+        - Asientos contables: 'AjustePorInflacion/Asiento.md'
 theme:
     name: 'material'
     navigation_depth: '3'
