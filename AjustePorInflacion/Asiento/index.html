@@ -1,0 +1,908 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.4.2">
+    
+    
+      
+        <title>Asientos contables - Artware Help Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.69437709.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#generacion-de-asientos-contables" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Artware Help Docs" class="md-header__button md-logo" aria-label="Artware Help Docs" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Artware Help Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Asientos contables
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Artware Help Docs" class="md-nav__button md-logo" aria-label="Artware Help Docs" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    Artware Help Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Localis365
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Localis365" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Localis365
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          Core
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Core" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Core
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1" type="checkbox" id="__nav_2_1_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1">
+          Maestros
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Maestros" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Maestros
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ConfiguracionGeneralLATAM/" class="md-nav__link">
+        Configuración General
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Clientes/" class="md-nav__link">
+        Clientes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TipoContribuyente/" class="md-nav__link">
+        Tipo Contribuyente
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../TipoClaseComprobante/" class="md-nav__link">
+        Tipo Clase Comprobante
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Proveedores/" class="md-nav__link">
+        Proveedores
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../LetraClaseComprobante/" class="md-nav__link">
+        Letra Clase Comprobante
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../GrupoTipoCuenta/" class="md-nav__link">
+        Grupo Tipo Cuenta
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ClaseComprobante/" class="md-nav__link">
+        Clase Comprobante
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Localización Argentina
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Localización Argentina" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Localización Argentina
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AplicativoGananciasSociedades/" class="md-nav__link">
+        Aplicativo Ganancias Sociedades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AplicativoSICORE/" class="md-nav__link">
+        Aplicativo SICORE
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AplicativoSIFERE/" class="md-nav__link">
+        Aplicativo SIFERE
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aplica tivos/IVASIAP.md" class="md-nav__link">
+        IVA SIAP
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Localización Perú
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Localización Perú" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Localización Perú
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../AsientoPorNaturalezaDestino/" class="md-nav__link">
+        Asiento Por Naturaleza y Destino
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../diagrams.md" class="md-nav__link">
+        diagrams
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Ajuste por inflación
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Ajuste por inflación" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Ajuste por inflación
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ConfiguracionGeneral/" class="md-nav__link">
+        Configuración General
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../IndicesDeAjustePorInflacion/" class="md-nav__link">
+        Indices de Ajuste por Inflación
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ProcesoDeAjuste/" class="md-nav__link">
+        Proceso de Ajuste
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Presupuesto/" class="md-nav__link">
+        Presupuesto contable
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Asientos contables
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Asientos contables
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#proceso-de-contabilizacion" class="md-nav__link">
+    Proceso de contabilización
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ajustes-posteriores" class="md-nav__link">
+    Ajustes posteriores
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#proceso-de-contabilizacion" class="md-nav__link">
+    Proceso de contabilización
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ajustes-posteriores" class="md-nav__link">
+    Ajustes posteriores
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="generacion-de-asientos-contables"><strong>Generación de asientos contables</strong></h1>
+<p>El proceso de generación de asientos dentro de un diario predeterminado para el proceso de ajuste por inflación, puede surgir a partir de:</p>
+<ol>
+<li>
+<p>Haber predeterminado dentro de la ventana de configuración del proceso, al comienzo, que era preciso generar el presupuesto contable y los asientos de manera
+simultanea.</p>
+</li>
+<li>
+<p>Desde el módulo de presupuesto en <strong>ACCIONES → AJUSTE POR INFLACIÓN → GENERAR ASIENTOS CONTABLES</strong>.</p>
+</li>
+</ol>
+<p>En ambos casos, el resultado será haber generado los asientos dentro del diario configurado. La diferencia radica en los momentos en los que son generados. </p>
+<p>Debido a que el módulo de presupuesto tiene como finalidad ser una pre visualización del plan de cuentas y principalmente de aquellas cuentas y sus saldos, que han sido
+afectadas por el proceso de ajuste, nos brinda la posibilidad de poder editar las partidas que dieron origen a este saldo ajustado que, aunque dependiendo la opcion 1 o 2 que elijamos
+podriamos tener creados los asientos en el diario, se encontrarian sin contabilizar, por lo que modificar y/o eliminar el presupuesto o información de alguna de las
+cuentas no representaría ningún inconveniente.</p>
+<p>Analizando cada caso a detalle:</p>
+<ul>
+<li>En el primer caso (Generación de asientos en simultaneo cuando se creo el presupuesto), tendremos creados tantos asientos contables dentro del diario, como cuentas diferentes hayan
+sido ajustadas. Estas estarán sin contabilizar por lo que, desde el prespuesto que dió origen a estos asientos, podremos seguir editando la información de las cuentas, pero deberemos 
+aceptar las condiciones de actualización que el proceso ofrece. </li>
+</ul>
+<p><img alt="Screenshot" src="../img/PresupuestoYAsientos/cartel1.jpg" /></p>
+<p>Luego de confirmar...</p>
+<p><img alt="Screenshot" src="../img/PresupuestoYAsientos/cartel2.jpg" /></p>
+<p>Este proceso de control se produce con el fin de que, si por alguna razón, se modifica el presupuesto y no se actualizan los cambios generando nuevamente los asientos en el diario y se
+contabilizan los antiguos asientos sin modificar, el presupuesto de origen y los asientos registrados en la contabilidad de las cuentas no queden desfasados.</p>
+<p>Se limpian las lineas creadas dentro del diario y se deberán generar nuevamente los asientos desde la opción determinada en la pagina principal del presupuesto. </p>
+<ul>
+<li>Este último caso, donde hablamos de disparar el proceso desde la página principal del prespuesto, corresponde a la opción 2, antes mencionada.</li>
+</ul>
+<p><img alt="Screenshot" src="../img/PresupuestoYAsientos/acciongenerar.jpg" />
+<br>
+<br></p>
+<h2 id="proceso-de-contabilizacion"><strong>Proceso de contabilización</strong></h2>
+<p>Para explicar el proceso de contabilización, trabajaremos con las cuentas:</p>
+<p><img alt="Screenshot" src="../img/PresupuestoYAsientos/cuentasej.jpg" /></p>
+<p>Ambas cuentas, poseen movimientos en los meses de marzo, abril y mayo.</p>
+<p>El primer ajuste lo haremos en el siguiente rango de fechas:</p>
+<p><img alt="Screenshot" src="../img/PresupuestoYAsientos/primerajustemarzo.jpg" /></p>
+<p>Dentro del presupuesto podemos ver que las partidas afectadas en cada cuenta son:</p>
+<p><img alt="Screenshot" src="../img/PresupuestoYAsientos/presupuesto2.jpg" />
+<img alt="Screenshot" src="../img/PresupuestoYAsientos/inversiones.jpg" />
+<img alt="Screenshot" src="../img/PresupuestoYAsientos/sic.jpg" /></p>
+<p>Hemos remarcado dentro de las imagenes en cada una de las cuentas un total, en la parte inferior del campo <strong>Diferencia por AXI</strong>, esto es porque, los montos que figurarán en los asientos dentro del diario
+serán estos, mas precisamente <em>será la sumatoria de las diferencias de AXI de todas las partidas dentro del presupuesto</em> y podremos corroborarlo ingrensando dentro del diario.</p>
+<p>Podremos visualizar:</p>
+<p><img alt="Screenshot" src="../img/PresupuestoYAsientos/diario1.jpg" /></p>
+<p>Estas lineas de diario se crearán con el número de cuenta de ajuste que se haya seleccionado para la cuenta principal, recordamos que si dentro del la configuración de la cuenta,
+teniamos seleccionado el check de que esa cuenta iba a ajustarse, automaticamente se le asignaba su mismo número de cuenta como cuenta de ajuste, pero si tenía seleccionado el segundo check
+que correspondía al ajuste en otra cuenta, debiamos seleccionar otra como cuenta de ajuste, diferente a la principal.</p>
+<p>Esta cuenta que se haya determinado como <em>cuenta de ajuste</em>, será la que aparecerá en la linea del diario y, en cuanto al monto, será como dijimos el total de la la sumatoria
+de las diferencias AXI.</p>
+<p>Por último, como cuenta de balance, se utilizará la cuenta que se haya determinado dentro de la ventana de configuración de ajuste por inflación, ya sea la cuenta de balance predeterminada
+para ganancias o la cuenta para perdidas.</p>
+<p>Luego de contabilizar, podremos ver dentro del plan de cuentas los nuevos saldos luego del ajuste.</p>
+<p><img alt="Screenshot" src="../img/PresupuestoYAsientos/cuentas2.jpg" /></p>
+<p>Dentro de cada cuenta, queda un registro para poder vincular el movimiento con el presupuesto que le dio origen. Para poder visualizarlo, nos dirigimos a la opción de 
+<strong>ACCIONES → AJUSTE POR INFLACIÓN → PRESUPUESTO ORIGEN</strong></p>
+<p><img alt="Screenshot" src="../img/PresupuestoYAsientos/movimiento.jpg" /></p>
+<p><img alt="Screenshot" src="../img/PresupuestoYAsientos/accionpreorigen.jpg" /></p>
+<p><em>Nota: Una vez contabilizado, el presupuesto no podra ser editado ni eliminado. Al intentarlo, nos encontraremos con el siguiente aviso:</em></p>
+<p><img alt="Screenshot" src="../img/PresupuestoYAsientos/noeditable.jpg" /></p>
+<p>Con esto evitamos que se puedan modificar valores del prespuesto y el movimiento registrado no coincidida con su ajuste de origen.</p>
+<h2 id="ajustes-posteriores"><strong>Ajustes posteriores</strong></h2>
+<p>Como vimos, el ajuste por inflación impacto dentro de las cuentas agregando a su contabilidad un movimiento que correspondia con la diferencia que resulto luego del proceso.
+Pero, tendremos que entender como impactará un proximo ajuste.</p>
+<p>Si corremos el proceso para las siguientes fechas: </p>
+<p><img alt="Screenshot" src="../img/PresupuestoYAsientos/fechas2.jpg" /></p>
+<p>El presupuesto obtenido será:</p>
+<p><img alt="Screenshot" src="../img/PresupuestoYAsientos/presupuesto3.jpg" /></p>
+<p>Si miramos el detalle ingresando en alguna de las cuentas ajustadas:</p>
+<p><img alt="Screenshot" src="../img/PresupuestoYAsientos/segundoajuste.jpg" />
+<img alt="Screenshot" src="../img/PresupuestoYAsientos/segundoajuste2.jpg" /></p>
+<p>Si generamos los asientos en el diario, podriamos observar lo siguiente:</p>
+<p><img alt="Screenshot" src="../img/PresupuestoYAsientos/diario2.jpg" /></p>
+<p>Podemos ver que para este segundo ajuste, el monto de los asientos no es justamente, como en el caso anterior, la sumatoria de las diferencias AXI y esto se debe a que,
+cuando realizamos un nuevo ajuste integrando un ajuste anterior, el proceso se encarga de realizar una reversión del asiento AXI anterior, para crear un asiento con la diferencia entre
+la sumatoria de las diferencias AXI actual para una de las cuentas ajustadas, menos el último asiento de ajuste que se registró en la cuenta.</p>
+<p><img alt="Screenshot" src="../img/PresupuestoYAsientos/reversion.jpg" /></p>
+<p>Debido a este calculo que el proceso realiza es que, al contabilizar estos últimos asientos, las cuentas quedarán actualizadas y podremos visualizar en sus saldos, sin entrar al detalle
+este último valor obtenido por ajuste por inflación.</p>
+<p><em>Antes... (Último asiento $60.50)</em></p>
+<p><img alt="Screenshot" src="../img/PresupuestoYAsientos/cuentas2.jpg" /></p>
+<p>*Ahora (Último asiento... $78.75, pero la sumatoria AXI por el último ajuste debió ser $139.25)</p>
+<p><img alt="Screenshot" src="../img/PresupuestoYAsientos/cuentas3.jpg" /></p>
+<p>Y dentro de la contabilidad de cada cuenta, recordemos que tendremos ambos asientos por ajuste, pudiendo desde ahí acceder al presupuesto que le dió origen como mencionamos anteriormente.</p>
+<p><img alt="Screenshot" src="../img/PresupuestoYAsientos/contabilidad3.jpg" /></p>
+
+
+
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../Presupuesto/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Presupuesto contable" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Presupuesto contable
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.9c69f0bc.min.js"></script>
+      
+    
+  </body>
+</html>
