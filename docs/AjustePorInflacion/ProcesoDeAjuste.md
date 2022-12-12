@@ -13,22 +13,17 @@ las cuentas que han sido afectadas por el proceso. Dicho diario, deberá selecci
 
 ![Screenshot](img/Proceso/indices.jpg)
 <hr>
-**3.** Chequear dentro del plan de cuentas que las cuentas tengan asignadas correctamente la tipificación necesaria para el proceso, es decir, que sean cuentas de tipo **BALANCE**.
-
-![Screenshot](img/Proceso/balance.jpg)
-<hr>
-**4.** Corroborar que dentro del plan de cuentas, todas las cuentas que deseamos ajustar, tengan activado el check de Ajuste, dentro de su configuración.
-
+**3.** Chequear dentro del plan de cuentas que las cuentas que se desea ajustan tengan activado el check de **Ajuste por Inflación**.
 ![Screenshot](img/Proceso/ajusta3.jpg)
 <hr>
-**5.** En el proceso general, si la cuenta tiene activado el check de **Ajusta**, tendrá asignado por defecto que el ajuste se hará sobre la misma cuenta, pero si, se requiere que el 
+**4.** En el proceso general, si la cuenta tiene activado el check de **Ajusta**, tendrá asignado por defecto que el ajuste se hará sobre la misma cuenta, pero si, se requiere que el 
 proceso ajuste sobre otra cuenta, se deberá seleccionar el check de **ajusta en otra cuenta** y además, elegir dicha cuenta en el otro campo.
 
 ![Screenshot](img/Proceso/ajusta2.jpg)
 ![Screenshot](img/Proceso/ajustaEnOtraCuenta.jpg)
 ![Screenshot](img/Proceso/ajustaEnOtraCuenta2.jpg)
 <hr>
-**6.** Desde el maestro de Plan de cuentas, tendremos el disparador para el proceso de Ajuste, donde luego visualizaremos una ventana emergente que nos permitira determinar el rango de fechas 
+**5.** Desde el maestro de Plan de cuentas, tendremos el disparador para el proceso de Ajuste, donde luego visualizaremos una ventana emergente que nos permitira determinar el rango de fechas 
 sobre el que operaremos para este proceso.
 
 ![Screenshot](img/Proceso/disparador.jpg)
@@ -38,13 +33,13 @@ sobre el que operaremos para este proceso.
 
 Tengamos en cuenta que para realizar el ajuste, debemos tomar un periodo de fechas particular.
 Por ejemplo, si deseamos ajustar saldos del mes de marzo, debemos correr el proceso para marzo y abril, ya que el proceso solo ajustará los montos correspondientes a
-marzo y el no habra ningun ajuste para abril.
+marzo y no habra ningun ajuste para abril.
 Si corremos el proceso desde el 1 de un mes, hasta su último día de ese mes, no habrá ajuste debido a que el coeficiente que se le aplicará al saldo a ajustar, resultante
 del calculo de indices (documentacion de Indices), será 1, por lo que no habrá ajuste.
 
-En resumen, para el proceso necesitamos por ejemplo, tomar el mes de nuestro interes y el mes posterior.
+- *Para tener un mayor conocimiento sobre las fechas validas al momento de ingresar valores en el formulario para correr el proceso, se recomienda leer la documentación* **Validación de Fechas** .
 <hr>
-**7.** Generación de presupuesto y opcionalmente asientos contables, según se haya configurado.
+**6.** Generación de presupuesto y opcionalmente asientos contables, según se haya configurado.
 
 *(Si se seleccionó solo generación de presupuesto).*
 
@@ -55,7 +50,7 @@ En resumen, para el proceso necesitamos por ejemplo, tomar el mes de nuestro int
 ![Screenshot](img/Proceso/presupuestoyasiento.jpg)
 
 
-** *Este último paso será explicado más a detalle en el próximo documento.* **
+** Este último paso será explicado más a detalle en el documento *Presupuesto contable* . **
 
 
 

@@ -24,8 +24,10 @@ nav:
         - Configuración General: 'AjustePorInflacion/ConfiguracionGeneral.md'
         - Indices de Ajuste por Inflación: 'AjustePorInflacion/IndicesDeAjustePorInflacion.md'
         - Proceso de Ajuste: 'AjustePorInflacion/ProcesoDeAjuste.md'
+        - Validación de Fechas: 'AjustePorInflacion/ValidacionDeFechas.md'
         - Presupuesto contable: 'AjustePorInflacion/Presupuesto.md'
         - Asientos contables: 'AjustePorInflacion/Asiento.md'
+        - Saldos Iniciales: 'AjustePorInflacion/SaldosIniciales.md'
 theme:
     name: 'material'
     navigation_depth: '3'
